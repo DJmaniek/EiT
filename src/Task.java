@@ -1,10 +1,8 @@
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.lang.System;
 
 public class Task {
     Date DataZ = new Date(System.currentTimeMillis());
-    SimpleDateFormat Format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         private String taskName;
         private String taskDescription;
         private Category taskCategory;
