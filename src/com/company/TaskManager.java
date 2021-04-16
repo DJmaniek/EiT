@@ -8,7 +8,7 @@ public interface TaskManager {
     void removeTask(Task t);
     Task[] getAllTasks();
     Task getTaskByName(String taskName);
-    public static final Task [] tasks = { //podalem konkretne przechowywane wartosci, aczkolwiek mozna dodac tutaj pusta tablice za pomoca "public static final Task [] tasks = new Task[10];"
+    public static final Task [] tasks = {
             new Task("Bieganie", "Przebiec 3k w 30min", taskCategory.NEW),
             new Task("Czytanie", "Przeczytac artukół w internecie", taskCategory.DONE),
             new Task("Cwiczenie", "Poćwiczyć programowanie", taskCategory.IN_PROGRESS),
